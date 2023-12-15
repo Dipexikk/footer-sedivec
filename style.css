@@ -1,0 +1,20 @@
+footer{
+    background-color: rgb(0, 0, 0);
+    color: white;
+    height: 300px;
+    padding-left: 8px;
+    margin: -8px;
+}
+
+.icons{
+    height: 80px;
+    display: flex;
+    justify-content: center;
+}
+
+a{
+    display: flex;
+    justify-content: SPACE;
+    color: white;
+    text-decoration: none;
+}
