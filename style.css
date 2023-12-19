@@ -1,20 +1,63 @@
 footer{
     background-color: rgb(0, 0, 0);
     color: white;
-    height: 300px;
+    height: 350px;
     padding-left: 8px;
     margin: -8px;
 }
 
 .icons{
-    height: 80px;
+    height: 75px;
+    display: flex;
+    justify-content: center;
+    padding-top: 16px;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 16px;
+    
+}
+.kokos{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 4px;
+    color: white;
+    text-indent: 16px;
+}
+
+.open{
     display: flex;
     justify-content: center;
 }
 
-a{
+.kontakty{
     display: flex;
-    justify-content: SPACE;
-    color: white;
-    text-decoration: none;
+    justify-content: center;
+}
+
+.bomboklad{
+    display: flex;
+    justify-content: center;
+}
+
+svg{
+    transition: .4s ease;
+    display: flex;
+    justify-content: center;
+}
+
+svg:hover{
+    fill: blue;
+}
+
+.end{
+    display: flex;
+    justify-content: center;
+    font-size: small;
 }
